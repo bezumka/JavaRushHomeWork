@@ -21,7 +21,7 @@ class Cat
     @Override
     protected void finalize() throws Throwable
     {
-        //super.finalize();
+        super.finalize();
         System.out.println("Cat destroyed");
     }
 }
@@ -31,7 +31,7 @@ class Dog
     @Override
     protected void finalize() throws Throwable
     {
-        //super.finalize();
+        super.finalize();
         System.out.println("Dog destroyed");
     }
 }
