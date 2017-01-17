@@ -27,7 +27,7 @@ public class Solution
 
     public void method4() {
         step++;
-        for (StackTraceElement element : Thread.currentThread().getStackTrace())
+        for(StackTraceElement element : Thread.currentThread().getStackTrace())
             System.out.println(element);
         if (step > 1) return;
         main(null);
