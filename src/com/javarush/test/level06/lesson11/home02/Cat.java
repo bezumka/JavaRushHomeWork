@@ -21,7 +21,7 @@ public class Cat
         for (int i = 0; i < 10; i++)
         {
             Cat cat = new Cat();
-            cats.add(cat);
+             cats.add(cat);
         }
         printCats();
     }
